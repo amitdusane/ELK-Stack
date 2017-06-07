@@ -1,0 +1,29 @@
+2017-05-30 15:09:06.328 DEBUG 3420 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing [applicationConfigurationProperties] PropertySource
+2017-05-30 15:09:06.329 DEBUG 3420 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing [defaultProperties] PropertySource
+2017-05-30 15:09:06.329 DEBUG 3420 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [defaultProperties] PropertySource with lowest search precedence
+2017-05-30 15:09:06.355  INFO 3420 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-30 15:09:06.384 DEBUG 3420 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA environment. All properties will per default be traversable.
+2017-05-30 15:09:06.755 DEBUG 3420 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy33
+2017-05-30 15:09:06.325  INFO 3420 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5b217147-784c-3b96-952c-ed0505886bc3
+2017-05-30 15:09:01.607 DEBUG 3420 --- [main] o.s.w.c.s.StandardServletEnvironment     : Removing [defaultProperties] PropertySource
+2017-05-30 15:09:01.608 DEBUG 3420 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [defaultProperties] PropertySource with lowest search precedence
+2017-05-30 15:09:01.608 DEBUG 3420 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [applicationConfig: [classpath:/bootstrap.yml]] PropertySource with search precedence immediately higher than [defaultProperties]
+2017-05-30 15:09:04.222 DEBUG 3420 --- [main] o.s.web.client.RestTemplate              : GET request for "http://localhost:8888/user-webservice/default" resulted in 200 (null)
+2017-05-30 15:09:04.225 DEBUG 3420 --- [main] o.s.web.client.RestTemplate              : Reading [class org.springframework.cloud.config.environment.Environment] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3dfc5fb8]
+2017-05-30 15:09:04.280  INFO 3420 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-webservice, profiles=[default], label=null, version=null, state=null
+2017-05-30 15:09:07.492  INFO 3420 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/user-service]  : Initializing Spring embedded WebApplicationContext
+2017-05-30 15:09:07.493 DEBUG 3420 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2017-05-30 15:09:07.493  INFO 3420 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3091 ms
+2017-05-30 15:09:07.704 DEBUG 3420 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-05-30 15:09:07.705 DEBUG 3420 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-05-30 15:09:07.705 DEBUG 3420 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2017-05-30 15:09:06.756 DEBUG 3420 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-05-30 15:09:06.756 DEBUG 3420 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2017-05-30 15:09:06.757 DEBUG 3420 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2017-05-30 15:09:06.757 DEBUG 3420 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-05-30 15:09:06.758 DEBUG 3420 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-05-30 15:09:07.317  INFO 3420 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2017-05-30 15:09:07.336  INFO 3420 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-30 15:09:07.338  INFO 3420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-30 15:09:07.701 DEBUG 3420 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-05-30 15:09:07.701 DEBUG 3420 --- [localhost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence

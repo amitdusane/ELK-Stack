@@ -1,0 +1,7 @@
+2017-05-30 19:19:14.825 DEBUG 10156 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-05-30 19:19:14.861 DEBUG 10156 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-05-30 19:19:14.863 DEBUG 10156 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-05-30 19:19:14.863 DEBUG 10156 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2017-05-30 19:19:14.864 DEBUG 10157 --- [maintest] o.s.w.c.s.StandardServletEnvironment     : Exception in thread "main" java.lang.NullPointerException
+	at com.anilallewar.microservices.gateway.ExceptionClass.main(ExceptionClass.java:8)
+2017-05-30 19:19:14.863 DEBUG 10156 --- [main] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
